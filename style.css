@@ -90,12 +90,22 @@ form button {
     border: none;
     background-color: #5CB85C;
     color: white;
+    font-weight: bold;
 }
 
 
 form button:hover {
     color: #5CB85C;
     background-color: rgb(229, 227, 227);
+}
+
+#deleteAllUsers {
+    background-color: #DC3545;
+}
+
+#deleteAllUsers:hover {
+    background-color: rgb(229, 227, 227);
+    color: #DC3545;
 }
 
 h1 {
@@ -108,6 +118,7 @@ h1 {
     margin-top: 30px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 h1:nth-child(1) {

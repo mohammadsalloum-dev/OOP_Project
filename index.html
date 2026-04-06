@@ -7,21 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-
-    <div class="form">
+    <div class="form" id="form">
         <h1>Add A User</h1>
         <form action="">
-            <div class="name name1">
-                <input type="text" id="name" placeholder="User Name">
+            <div class="name">
+                <input type="text" id="name" placeholder="User Name" required>
             </div>
 
             <div class="email">
-                <input type="email" id="email" placeholder="E-mail"> 
+                <input type="email" id="email" placeholder="E-mail" required> 
             </div>
 
             <div class="id">
-                <input type="number" id="id" placeholder="id"> 
+                <input type="number" id="id" placeholder="id" required> 
             </div> 
 
             <div class="btns">
@@ -34,9 +32,13 @@
 
     <div class="users-data">
         <h1>Users Data</h1>
+        <div class="search">
+            <input type="text" id="searchInput" placeholder="Search">
+        </div>
         <div id="usersData"></div>
+        <button class="return"><a href="#form">Add User</a></button> 
     </div>
-
+    
 
     <script src="main.js"></script>
 </body>
